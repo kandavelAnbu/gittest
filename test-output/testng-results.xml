@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16" started-at="2016-04-26T05:57:52Z" finished-at="2016-04-26T05:57:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16" started-at="2016-04-26T05:57:52Z" finished-at="2016-04-26T05:57:52Z">
+      <class name="MathTest">
+        <test-method status="PASS" signature="testDivide(int, int)[pri:0, instance:MathTest@130015a]" name="testDivide" duration-ms="0" started-at="2016-04-26T11:27:52Z" data-provider="dpDivide" finished-at="2016-04-26T11:27:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivide -->
+        <test-method status="PASS" signature="testAdd(int, int)[pri:0, instance:MathTest@130015a]" name="testAdd" duration-ms="0" started-at="2016-04-26T11:27:52Z" data-provider="dpAdd" finished-at="2016-04-26T11:27:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testSub(int, int)[pri:0, instance:MathTest@130015a]" name="testSub" duration-ms="0" started-at="2016-04-26T11:27:52Z" data-provider="dpSub" finished-at="2016-04-26T11:27:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testMult(int, int)[pri:0, instance:MathTest@130015a]" name="testMult" duration-ms="0" started-at="2016-04-26T11:27:52Z" data-provider="dpMulti" finished-at="2016-04-26T11:27:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+      </class> <!-- MathTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
