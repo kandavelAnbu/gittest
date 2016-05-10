@@ -33,4 +33,37 @@ dependencies {
         exclude group: "org.testng", module: "testng"
     }
     compile "com.google.inject:guice:3.0"
+    
 }
+sourceSets {
+     
+     main {
+         java.srcDir file('src/main/java')
+     }
+    
+    integTest {
+        java.srcDir file('src/test/java')
+        resources.srcDir file('src/test/resources')
+    }
+}
+
+task integTest(type: Test) {
+    
+    testClassesDir = sourceSets.test.output.classesDir
+    classpath = sourceSets.test.runtimeClasspath
+}
+
+check.dependsOn integTest
+
+task runApp(type:JavaExec) {
+   
+   main = "com.sample.gradle.EncapsulationSolution"
+   classpath = sourceSets.main.runtimeClasspath
+}
+
+task copyJarToBin(type: Copy) {
+    
+    from 'D:/dev/training/GradleParent'
+    into "d:/dev/temp"
+}  
+
