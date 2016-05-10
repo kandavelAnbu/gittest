@@ -26,12 +26,14 @@ dependencies {
     // TestNG is also supported by the Gradle Test task. Just change the
     // testCompile dependency to testCompile 'org.testng:testng:6.8.1' and add
     // 'test.useTestNG()' to your build script.
+    
     testCompile 'junit:junit:4.12'
     compile "org.seleniumhq.selenium:selenium-java:2.15.0"
     compile "org.testng:testng:6.3.1"
     compile("org.uncommons:reportng:1.1.2") {
         exclude group: "org.testng", module: "testng"
     }
+    
     compile "com.google.inject:guice:3.0"
     
 }
