@@ -55,8 +55,6 @@ task integTest(type: Test) {
     classpath = sourceSets.test.runtimeClasspath
 }
 
-
-
 check.dependsOn integTest
 
 task runApp(type:JavaExec) {
